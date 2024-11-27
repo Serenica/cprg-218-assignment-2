@@ -1,0 +1,36 @@
+body{
+  background-color: #F0C0F3;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: Center;
+    font-weight: bold;
+  }
+
+  .timeline {
+    max-inline-size: 55%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: contain; 
+  }
+  
+  /*{
+    max-inline-size: 55%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: contain;
+  }
+
+  p {
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+
+}*/
