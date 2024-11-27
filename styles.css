@@ -1,6 +1,7 @@
 body{
   background-color: #F0C0F3;
 }
+
 nav {
     display: flex;
     flex-direction: row;
@@ -32,6 +33,20 @@ nav {
     object-fit: contain;
     /*background-color: #F4E6F4;*/
     padding: 1.5 rem;
+  }
+
+
+  @media screen and (max-width: 848px) {
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+    }
+    
+    img{
+      width: 50%;
+      block-size: auto;
+    }
   }
 
   /*img{
