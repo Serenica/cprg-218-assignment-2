@@ -20,16 +20,17 @@ nav {
     justify-content: Center;
   }
 
-  #cat_img{
-    width: 55%;
+  img{
+    width: 99%;
     block-size: auto;
+    
   }
 
   #timeline {
     max-inline-size: 55;
     block-size: auto;
     object-fit: contain;
-    background-color: #F4E6F4;
+    /*background-color: #F4E6F4;*/
     padding: 1.5 rem;
   }
 
