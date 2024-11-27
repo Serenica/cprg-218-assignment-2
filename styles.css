@@ -14,7 +14,13 @@ nav {
     font-weight: bold;
   }
 
-  #img{
+  h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: Center;
+  }
+
+  #cat_img{
     width: 55%;
     block-size: auto;
   }
@@ -23,11 +29,8 @@ nav {
     max-inline-size: 55;
     block-size: auto;
     object-fit: contain;
-  }
-
-  section {
-    background-color: #f4cff7;
-    padding 1.5rem;
+    background-color: #F4E6F4;
+    padding: 1.5 rem;
   }
 
   /*img{
