@@ -14,14 +14,30 @@ nav {
     font-weight: bold;
   }
 
-  img{
+  #img{
+    width: 55%;
+    block-size: auto;
+  }
+
+  #timeline {
+    max-inline-size: 55;
+    block-size: auto;
+    object-fit: contain;
+  }
+
+  section {
+    background-color: #f4cff7;
+    padding 1.5rem;
+  }
+
+  /*img{
     max-inline-size: 55%;
     block-size: auto;
     aspect-ratio: 2/1;
     object-fit: contain;
   }
 
-  /*p {
+    p {
     margin-left: 0px;
     overflow:auto;
     display:block;
