@@ -36,16 +36,18 @@ nav {
   }
 
 
-  @media screen and (max-width: 848px) {
-    .nav {
+  @media only screen and (max-width: 650px) {
+    nav {
       display: flex;
       flex-direction: column;
-      justify-content: right;
+      justify-content: Center;
     }
-    
+
+
     img{
-      width: 50%;
+      width: 75%;
       block-size: auto;
+      align-items: center;
     }
   }
 
