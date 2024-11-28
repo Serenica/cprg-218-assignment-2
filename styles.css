@@ -8,6 +8,11 @@ nav {
     justify-content: right;
   }
 
+  button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
   h1 {
     display: flex;
     flex-direction: row;
@@ -39,10 +44,22 @@ nav {
   @media only screen and (max-width: 650px) {
     nav {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: Center;
     }
 
+    button{
+      margin: 5px;
+      padding: 5px;
+      border-radius: 10px;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /*font-weight: bold;*/
+  }
 
     img{
       width: 75%;
